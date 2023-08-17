@@ -1,10 +1,10 @@
-const input = document.getElementById("inputBox");
+let input = document.getElementById("inputBox");
 
-const buttons = document.querySelectorAll("button");
+let buttons = document.querySelectorAll("button");
 
-const string = "";
+let string = "";
 
-const arr = Array.from(buttons);
+let arr = Array.from(buttons);
 
 arr.forEach((button) => {
   button.addEventListener("click", (e) =>{
