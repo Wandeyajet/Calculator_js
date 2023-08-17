@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+     <link rel="icon" type="image/png" sizes="32x32" href="./images/cal-logo.png">
     <title>Calculator_App</title>
 </head>
 <body>
-   <div class="container">
-      <div class="calculator">
-        <input type="text" id="inputBox" placeholder="0" />
+   <main class="container">
+      <section class="calculator">
+        <input type="text" id="inputBox" placeholder="0" aria-label="Calculator display" />
+       
         <div>
           <button class="button operator" type="button">AC</button>
           <button class="button operator"  type="button">DEL</button>
           <button class="button operator"  type="button">%</button>
           <button class="button operator"  type="button">/</button>
         </div>
+
         <div>
           <button class="button"  type="button">7</button>
           <button class="button" type="button">8</button>
           <button class="button"  type="button">9</button>
           <button class="button operator"  type="button">*</button>
         </div>
+
         <div>
           <button class="button"  type="button">4</button>
           <button class="button"  type="button">5</button>
           <button class="button"  type="button">6</button>
           <button class="button operator"  type="button">-</button>
         </div>
+
         <div>
           <button class="button" type="button" >1</button>
           <button class="button"  type="button">2</button>
@@ -41,13 +46,14 @@
           <button class="button"  type="button">.</button>
           <button class="button equalBtn" type="button" >=</button>
         </div>
-      </div>
+      </section>
+
              <footer class="note">
         <em> calculating made easy...</em> 😎
       </footer>
-    </div>
-   
 
+    </main>
+   
     <script src="script.js"></script>
 </body>
 </html>
